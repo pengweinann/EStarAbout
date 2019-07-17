@@ -1,16 +1,19 @@
 <template>
     <div id="about-cell">
-        <div id="left">包号</div>
-        <div id="right">000735</div>
+        <div id="left">{{content.leftLab}}</div>
+        <div id="right">{{content.rightLab}}</div>
     </div>
 </template>
 
 <script>
 export default {
     name: 'AboutCell',
-    // props: {
-    //     packageNumber: string
-    // }
+    props: {
+        content: {
+          leftLab:String,
+          rightLab:String
+        }
+    }
 }
 </script>
 
