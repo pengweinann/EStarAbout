@@ -26,6 +26,7 @@ export default {
     border-bottom-color: gray;
 }
 #left {
+    padding: 10px;
     text-align: left;
     width: 30%;
     display: inline-block;
